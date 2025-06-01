@@ -1,4 +1,3 @@
-/* 탭 버튼 스타일 */
 .tab-buttons {
     margin-top: 20px;
 }
@@ -33,14 +32,12 @@ input#tab-pitcher:checked + label[for="tab-pitcher"] {
     color: white;
 }
 
-/* record-tabs 스타일 */
 .record-tabs {
     border-bottom: none;
     margin: 10px 0 32px;
     position: relative;
 }
 
-/* 연한 까만줄 공간 띄워서 추가 */
 .record-tabs::after {
     content: '';
     display: block;
@@ -75,7 +72,6 @@ input#tab-pitcher:checked + label[for="tab-pitcher"] {
     border-bottom: 2.5px solid #0a1744;
 }
 
-/* 버튼 스타일 */
 .record-buttons {
     margin-top: 20px;
 }
@@ -99,7 +95,6 @@ input#tab-pitcher:checked + label[for="tab-pitcher"] {
     border-color: #0a1744;
 }
 
-/* 타자기록 섹션 스타일 */
 .hitter-record-section {
     margin-top: 30px;
     border: 1.5px solid #e0e0e0;
@@ -158,7 +153,6 @@ input#tab-pitcher:checked + label[for="tab-pitcher"] {
     font-weight: 400;
 }
 
-/* 뷰 컨트롤 스타일 */
 .record-view-controls {
     display: flex;
     align-items: center;
@@ -188,7 +182,6 @@ input#tab-pitcher:checked + label[for="tab-pitcher"] {
     margin: 0 6px;
 }
 
-/* 테이블 스타일 */
 .hitter-record-table-wrap {
     margin-top: 18px;
     background: #fff;
